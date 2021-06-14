@@ -1,0 +1,5 @@
+select c.ContactName from customers as c where c.City='berlin'
+select Len(c.ContactName) from customers as c where c.City='berlin'
+select Left(c.ContactName,5) from customers as c where c.City='berlin'
+select Right(c.ContactName,5) from customers as c where c.City='berlin'
+select substring(c.ContactName,5,1) from customers as c where c.City='berlin'

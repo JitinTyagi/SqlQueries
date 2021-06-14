@@ -1,0 +1,1 @@
+Select  * from Customers Where  City   = 'Berlin'; 

@@ -1,0 +1,1 @@
+Select  contactname from Customers where ContactTitle='Owner' or ContactTitle='owner';
