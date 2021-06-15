@@ -1,0 +1,1 @@
+Select Distinct w.WORKER_ID,w.FIRST_NAME,w.JOINING_DATE,w.SALARY,t.WORKER_TITLE,t.AFFECTED_FROM From Worker w join Title t on w.WORKER_ID=t.WORKER_REF_ID join bonus b on t.WORKER_REF_ID=b.WORKER_REF_ID
